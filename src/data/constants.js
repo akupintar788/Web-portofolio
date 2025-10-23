@@ -352,7 +352,7 @@ export const projects = [
       "Cargo is an innovative solution for your car rental needs. Designed with a user-friendly interface, AutoSewa provides convenience for users in searching, renting, and managing vehicles according to their travel needs.",
     image:
       "https://firebasestorage.googleapis.com/v0/b/kahficorp-41377.appspot.com/o/image%20(2).png?alt=media&token=3bb92ea0-4b09-4f6a-b198-949ff835cbac",
-    tags: ["Flutter", "Firebase", "Node Js", "Express Js", "Redux"],
+    tags: ["Flutter", "Firebase", "Android Studio"],
     category: "android app",
     github: "https://github.com/rishavchanda/Podstream",
     webapp: "https://podstream.netlify.app/",
