@@ -90,7 +90,15 @@ export const skills = [
         name: "Firebase",
         image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
       },
-    ],
+      {
+        name: "Express.js",
+        image: "https://cdn.hashnode.com/res/hashnode/image/upload/v1675637255386/f3a9a38b-116d-4b35-8f46-8d8abb78166f.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp",
+      },
+      {
+        name: "postgresql",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1080px-Postgresql_elephant.svg.png  ",
+      },
+    ], 
   },
   {
     title: "Android",
@@ -180,7 +188,7 @@ export const experiences = [
     id: 1,
     img: "https://blog.logomyway.com/wp-content/uploads/2021/11/meta-logo.png",
     role: "VR Pasar Pundensari thesis",
-    company: "Pasar Pundensari",
+    company: "Dinas Pariwisata, Pemuda, dan Olahraga.",
     date: "jan 2025 - June 2025",
     desc: "Designing and implementing a virtual reality application using the Unity game engine that displays a realistic 3D model of Pundensari Market in Madiun Regency. This project aims to fulfill a final assignment and advance the visual preservation and digital representation of the market.",
     skills: [
@@ -234,6 +242,16 @@ export const experiences = [
     skills: ["Html", "Css", "Js", "Verchel"],
     link: "https://weddingwira.vercel.app/",
   },
+  {
+    id: 0,
+    img: "https://res.cloudinary.com/dqwm1h38x/image/upload/v1766320765/doctraker_akuwbe.png",
+    role: "Digital Document Expiry Tracker",
+    company: "Mudin group",
+    date: "November 2025 - November 2025",
+    desc: "DocTracker is a digital asset management platform that integrates automatic validity monitoring via Telegram/Email notifications, visualization of renewal costs, and centralized contract document management to efficiently prevent delays in updating critical assets.",
+    skills: ["React", "Express", "Postgresql", "Insomnia", "Navicat",],
+    link: "https://github.com/akupintar788/DocTracker",
+  },
 ];
 
 export const education = [
@@ -277,6 +295,26 @@ export const projects = [
     github: "",
     webapp:
       "https://drive.google.com/drive/folders/1yfpuHdkv8LKf3IfY7zrwOU9KZIM0NDXV?usp=drive_link",
+  },
+  {
+    id: 9,
+    title: "Digital Document Expiry Tracker",
+    date: "Jan 2025 - Jul 2025",
+    description:
+      "Digital Document Expiry Tracker is a digital asset management platform that integrates automatic validity monitoring via Telegram/Email notifications, visualization of renewal costs, and centralized contract document management to efficiently prevent delays in updating critical assets.",
+    image:
+      "https://res.cloudinary.com/dqwm1h38x/image/upload/v1766320765/doctraker_akuwbe.png",
+    tags: [
+      "Express.js",
+      "React.js",
+      "Postgresql",
+      "Navicat",
+      "Insomnia",
+    ],
+    category: "web app",
+    github: "https://github.com/akupintar788/DocTracker",
+    webapp:
+      "https://github.com/akupintar788/DocTracker",
   },
   {
     id: 1,
